@@ -1,0 +1,26 @@
+{
+  "name": "bd-covid-infographic",
+  "version": "1.0.0",
+  "description": "An infographic made for BD",
+  "repository": "https://github.com/michaelbonner/bd-covid-infographic.git",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html --open"
+  },
+  "keywords": [],
+  "author": "Michael Bonner <mike@bootpackdigital.com>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "parcel": "^2.0.0",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.6",
+    "typescript": "^4.0.3"
+  }
+}
